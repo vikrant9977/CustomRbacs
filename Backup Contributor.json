@@ -1,0 +1,44 @@
+{
+    "Name":  "Backup Contributor",
+    "Id":  "5e467623-bb1f-42f4-a55d-6e525e11384b",
+    "IsCustom":  false,
+    "Description":  "Lets you manage backup service,but can\u0027t create vaults and give access to others",
+    "Actions":  [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.RecoveryServices/locations/allocatedStamp/read",
+                    "Microsoft.RecoveryServices/Vaults/backupconfig/vaultconfig/*",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/operationResults/*",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/*",
+                    "Microsoft.RecoveryServices/Vaults/backupJobs/*",
+                    "Microsoft.RecoveryServices/Vaults/backupJobsExport/action",
+                    "Microsoft.RecoveryServices/Vaults/backupJobsExport/operationResults/read",
+                    "Microsoft.RecoveryServices/Vaults/backupManagementMetaData/*",
+                    "Microsoft.RecoveryServices/Vaults/backupOperationResults/*",
+                    "Microsoft.RecoveryServices/Vaults/backupPolicies/*",
+                    "Microsoft.RecoveryServices/Vaults/backupProtectableItems/*",
+                    "Microsoft.RecoveryServices/Vaults/backupProtectedItems/*",
+                    "Microsoft.RecoveryServices/Vaults/backupProtectionContainers/*",
+                    "Microsoft.RecoveryServices/Vaults/backupSecurityPIN/*",
+                    "Microsoft.RecoveryServices/Vaults/backupUsageSummaries/read",
+                    "Microsoft.RecoveryServices/Vaults/certificates/*",
+                    "Microsoft.RecoveryServices/Vaults/extendedInformation/*",
+                    "Microsoft.RecoveryServices/Vaults/monitoringAlerts/read",
+                    "Microsoft.RecoveryServices/Vaults/monitoringConfigurations/notificationConfiguration/read",
+                    "Microsoft.RecoveryServices/Vaults/read",
+                    "Microsoft.RecoveryServices/Vaults/refreshContainers/*",
+                    "Microsoft.RecoveryServices/Vaults/registeredIdentities/*",
+                    "Microsoft.RecoveryServices/Vaults/storageConfig/*",
+                    "Microsoft.RecoveryServices/Vaults/usages/*",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Storage/storageAccounts/read",
+                    "Microsoft.Support/*"
+                ],
+    "NotActions":  [
+
+                   ],
+    "AssignableScopes":  [
+                             "/subscriptions/57724e5e-1d52-4b3f-9779-41dd75ae5ff1/"
+                         ]
+}
