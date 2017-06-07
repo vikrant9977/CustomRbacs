@@ -1,0 +1,23 @@
+{
+    "Name":  "SDC Advance Application Insights Component Contributor",
+    "IsCustom":  true,
+    "Description":  "Can manage Application Insights components in sdc env",
+    "Actions":  [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Insights/components/*",
+                    "Microsoft.Insights/webtests/*",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Support/*"
+                ],
+    "NotActions":  [
+
+                   ],
+    "AssignableScopes":  [
+                             "/subscriptions/57724e5e-1d52-4b3f-9779-41dd75ae5ff1/"
+
+                         ]
+}
+
