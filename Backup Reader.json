@@ -1,0 +1,43 @@
+{
+    "Name":  "SDC Advance Backup Reader",
+    "IsCustom":  true,
+    "Description":  "Can view backup services, but can\u0027t make changes in sdc",
+    "Actions":  [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.RecoveryServices/locations/allocatedStamp/read",
+                    "Microsoft.RecoveryServices/Vaults/backupconfig/vaultconfig/read",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/operationResults/read",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/operationResults/read",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/protectedItems/operationResults/read",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/protectedItems/operationStatus/read",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/protectedItems/read",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/protectedItems/recoveryPoints/read",
+                    "Microsoft.RecoveryServices/Vaults/backupFabrics/protectionContainers/read",
+                    "Microsoft.RecoveryServices/Vaults/backupJobs/operationResults/read",
+                    "Microsoft.RecoveryServices/Vaults/backupJobs/read",
+                    "Microsoft.RecoveryServices/Vaults/backupJobsExport/action",
+                    "Microsoft.RecoveryServices/Vaults/backupJobsExport/operationResults/read",
+                    "Microsoft.RecoveryServices/Vaults/backupManagementMetaData/read",
+                    "Microsoft.RecoveryServices/Vaults/backupOperationResults/read",
+                    "Microsoft.RecoveryServices/Vaults/backupPolicies/operationResults/read",
+                    "Microsoft.RecoveryServices/Vaults/backupPolicies/read",
+                    "Microsoft.RecoveryServices/Vaults/backupProtectedItems/read",
+                    "Microsoft.RecoveryServices/Vaults/backupProtectionContainers/read",
+                    "Microsoft.RecoveryServices/Vaults/backupUsageSummaries/read",
+                    "Microsoft.RecoveryServices/Vaults/extendedInformation/read",
+                    "Microsoft.RecoveryServices/Vaults/monitoringAlerts/read",
+                    "Microsoft.RecoveryServices/Vaults/monitoringConfigurations/notificationConfiguration/read",
+                    "Microsoft.RecoveryServices/Vaults/read",
+                    "Microsoft.RecoveryServices/Vaults/refreshContainers/read",
+                    "Microsoft.RecoveryServices/Vaults/registeredIdentities/operationResults/read",
+                    "Microsoft.RecoveryServices/Vaults/registeredIdentities/read",
+                    "Microsoft.RecoveryServices/Vaults/storageConfig/read",
+                    "Microsoft.RecoveryServices/Vaults/usages/read"
+                ],
+    "NotActions":  [
+
+                   ],
+    "AssignableScopes":  [
+                             "/subscriptions/57724e5e-1d52-4b3f-9779-41dd75ae5ff1/"
+                         ]
+}
