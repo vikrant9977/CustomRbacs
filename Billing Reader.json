@@ -1,0 +1,17 @@
+{
+    "Name":  "SDC Advance Billing Reader",
+    "IsCustom":  true,
+    "Description":  "Allows read access to billing data in sdc",
+    "Actions":  [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Billing/*/read",
+                    "Microsoft.Commerce/*/read",
+                    "Microsoft.Support/*"
+                ],
+    "NotActions":  [
+
+                   ],
+    "AssignableScopes":  [
+                            "/subscriptions/57724e5e-1d52-4b3f-9779-41dd75ae5ff1/"
+                         ]
+}
