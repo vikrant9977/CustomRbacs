@@ -1,5 +1,5 @@
 {
-    "Name":  "Backup Contributor",
+    "Name":  "SDC Advance Backup Contributor",
     "Id":  "5e467623-bb1f-42f4-a55d-6e525e11384b",
     "IsCustom":  false,
     "Description":  "Lets you manage backup service,but can\u0027t create vaults and give access to others",
